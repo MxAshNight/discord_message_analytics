@@ -255,7 +255,7 @@ No. If you were part of a role before it's migration to this system, your member
     @commands.command()
     async def ping(self, ctx, *, role_name):
         """
-        Usage: ??ping role_name
+        Usage: {command_prefix}ping role_name
 
         To find out more about how the bot based roles work, run the command ?about_pings
         """
